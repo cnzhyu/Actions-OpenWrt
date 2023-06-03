@@ -12,4 +12,4 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-https://github.com/cnzhyu/Actions-OpenWrt/blob/main/generic.mk
+wget -O openwrttarget/linux/ipq807x/image/generic.mk https://github.com/cnzhyu/Actions-OpenWrt/blob/main/generic.mk
