@@ -61,7 +61,7 @@ jobs:
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
         cd openwrt && git reset --hard 26f3634631244eedfbdfd61ea6cc3a2d7f5d896f
-        cp -rf $GITHUB_WORKSPACE/ax6/generic.mk openwrt/target/linux/ipq807x/image/generic.mk
+        cp -rf $GITHUB_WORKSPACE ax6/generic.mk openwrt/target/linux/ipq807x/image/generic.mk
 
     - name: Load custom feeds
       run: |
