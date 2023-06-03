@@ -75,6 +75,9 @@ jobs:
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
 
+    - name: ax6generic.mk
+      run: cp -rf $GITHUB_WORKSPACE/ax6/generic.mk openwrt/target/linux/ipq807x/image/generic.mk
+
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files openwrt/files
