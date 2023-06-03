@@ -16,4 +16,3 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-wget -O openwrttarget/linux/ipq807x/image/generic.mk https://github.com/cnzhyu/Actions-OpenWrt/blob/main/generic.mk
