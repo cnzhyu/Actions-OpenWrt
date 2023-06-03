@@ -16,4 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-wget -O target/linux/ipq807x/image/generic.mk https://github.com/hochenchong/Actions-OpenWrt/blob/main/ax6/generic.mk
+wget -O target/linux/ipq807x/image/generic.mk hochenchong/Actions-OpenWrt/blob/main/ax6/generic.mk
